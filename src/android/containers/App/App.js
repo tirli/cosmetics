@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Navigator, BackAndroid } from 'react-native';
-import { CosmeticsList, ProductForm } from '../../components';
+import { CosmeticsList, ProductForm } from '../../containers';
 import { setTheme, MKColor } from 'react-native-material-kit';
 
 setTheme({

@@ -1,3 +1,7 @@
+import products from './products';
+
 export default function* () {
-  yield [];
+  yield [
+    products(),
+  ];
 }
