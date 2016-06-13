@@ -12,6 +12,7 @@ export default function (state = initialState, action) {
     case GET_PRODUCT_LIST_SUCCESS:
       return {
         ...state,
+        loading: false,
         entities: action.result,
       };
     default:
