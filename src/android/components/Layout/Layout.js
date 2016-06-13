@@ -1,8 +1,10 @@
 import React, { Component, PropTypes } from 'react';
-import { StyleSheet, DrawerLayoutAndroid, View, Text } from 'react-native';
+import { StyleSheet, DrawerLayoutAndroid, View } from 'react-native';
 import { ToolbarAndroid } from 'react-native-vector-icons/Ionicons';
 import { getTheme } from 'react-native-material-kit';
 const theme = getTheme();
+
+import { Drawer } from '../../containers';
 
 const styles = StyleSheet.create({
   toolbar: {
@@ -36,9 +38,7 @@ class Layout extends Component {
 
   renderNav() {
     return (
-      <View style={{ flex: 1, backgroundColor: '#fff' }}>
-        <Text style={{ margin: 10, fontSize: 15, textAlign: 'left' }}>Im in the Drawer!</Text>
-      </View>
+      <Drawer />
     );
   }
 
