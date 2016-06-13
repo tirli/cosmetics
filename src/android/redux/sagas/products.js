@@ -11,6 +11,7 @@ const data = [
     commentary: 'Gasdad',
     photo: 'https://robohash.org/sitsequiquia.png?size=300x300',
     validAfterOpen: 12 * 30 * 24,
+    opened: 'May 12 2016 19:11:03 GMT+0300',
     producer: 'Nivea',
     categories: ['Уход', 'Для тела'],
   },
